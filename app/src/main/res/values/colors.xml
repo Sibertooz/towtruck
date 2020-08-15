@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="moreRed">#d52941</color>
+    <color name="lessRed">#de5e60</color>
+    <color name="darkBackBtn">#2f3238</color>
+    <color name="darkBackMain">#343841</color>
+    <color name="maintText">#8894AB</color>
+
+    <color name="servBtn">#2980D9</color>
+
+    <color name="colorLay">#343841</color>
+
+    <color name="colorBusy">#d52941</color>
+    <color name="colorFree">#52985B</color>
+
+    <color name="dialogBack">#A1ABC3</color>
+    <color name="dialogName">#223158</color>
+    <color name="dialogPhone">#545965</color>
+
+    <color name="chatMain">#203040</color>
+    <color name="chatRight">#3e6a97</color>
+    <color name="chatLeft">#203040</color>
+    <color name="chatRightText">#fff3ff</color>
+    <color name="chatLeftText">#fbfffa</color>
+</resources>

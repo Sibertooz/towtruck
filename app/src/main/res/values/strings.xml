@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TowTruck</string>
+    <string name="loginlike">Войти как</string>
+    <string name="provider">Поставщик услуг</string>
+    <string name="user">Потребитель услуг</string>
+    <string name="towtruck">Услуги эвакуатора</string>
+    <string name="services">Экстренные службы</string>
+
+    <string name="mchs">101</string>
+    <string name="police">102</string>
+    <string name="amb">103</string>
+    <string name="gas">104</string>
+    <string name="txtMchs">МЧС</string>
+    <string name="txtPolice">Полиция</string>
+    <string name="txtAmb">Скорая</string>
+    <string name="txtGas">Служба газа</string>
+
+    <string name="Login">Войти</string>
+    <string name="Register">Зарегистрируйтесь.</string>
+    <string name="txtLogin">Введите e-mail</string>
+    <string name="txtQuestion">У Вас нет аккаунта?</string>
+    <string name="txtPassword">Введите пароль</string>
+
+    <string name="inputName">Введите имя</string>
+    <string name="inputPhone">Введите номер телефона</string>
+    <string name="inputEmail">Введите e-mail</string>
+    <string name="inputPassword">Введите пароль</string>
+    <string name="inputPasswordRepeat">Повторите пароль</string>
+    <string name="DoRegister">Зарегистрироваться</string>
+    <string name="wrongPassword">Пароли не совпадают</string>
+
+    <string name="edit">Редактировать</string>
+
+    <string name="providerInfo">Информация</string>
+    <string name="send">Заказать</string>
+    <string name="cancel">Отмена</string>
+    <string name="call">Позвонить</string>
+
+    <string name="update">Обновить данные</string>
+    <string name="updateText">Редактирование информации</string>
+
+    <string name="textName">Имя: </string>
+    <string name="textPhone">Номер телефона: </string>
+    <string name="textEmail">E-mail: </string>
+
+    <string name="refresh">Обновить</string>
+
+    <string name="msg">Введите сообщение</string>
+
+    <string name="newRecord">У Вас одно новое сообщение</string>
+    <string name="seeRecord">Посмотреть</string>
+    <string name="notification">Уведомление</string>
+</resources>

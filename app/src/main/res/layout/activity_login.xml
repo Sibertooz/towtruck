@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".provider.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        android:inputType="textEmailAddress"
+        android:layout_margin="20dp"
+        android:hint="@string/txtLogin"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        tools:ignore="Autofill"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:hint="@string/txtPassword"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        tools:ignore="Autofill"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:id="@+id/btnLogin"
+        android:text="@string/Login"
+        android:textSize="15sp"
+        android:background="@drawable/buttons"
+        android:textColor="@drawable/textbutton"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:fontFamily="sans-serif"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtQuestion"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btnRegister"
+            android:text="@string/Register"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/maintText"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</LinearLayout>

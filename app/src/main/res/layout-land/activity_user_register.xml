@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:layout_margin="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".user.UserRegister"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etInputName"
+            android:inputType="textPersonName"
+            android:layout_margin="20dp"
+            android:hint="@string/inputName"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            tools:ignore="Autofill"/>
+
+        <requestFocus />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etInputPhone"
+            android:inputType="phone"
+            android:layout_margin="20dp"
+            android:hint="@string/inputPhone"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            tools:ignore="Autofill"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etInputEmail"
+            android:inputType="textEmailAddress"
+            android:layout_margin="20dp"
+            android:hint="@string/inputEmail"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            tools:ignore="Autofill"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etInputPassword"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"
+            android:hint="@string/inputPassword"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            tools:ignore="Autofill"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etInputPasswordRepeat"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"
+            android:hint="@string/inputPasswordRepeat"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            tools:ignore="Autofill"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btnDoRegister"
+            android:text="@string/DoRegister"
+            android:textSize="15sp"
+            android:background="@drawable/buttons"
+            android:textColor="@drawable/textbutton"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:fontFamily="sans-serif"/>
+    </LinearLayout>
+</ScrollView>

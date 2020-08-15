@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnTowTruck"
+        android:text="@string/towtruck"
+        android:textSize="15sp"
+        android:background="@drawable/buttons"
+        android:textColor="@drawable/textbutton"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/services"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/maintText"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/btnMchs"
+                    android:text="@string/mchs"
+                    android:textSize="30sp"
+                    android:background="@drawable/servbuttons"
+                    android:textColor="@drawable/textbutton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="25dp"
+                    android:layout_margin="15dp"/>
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/btnPolice"
+                    android:text="@string/police"
+                    android:textSize="30sp"
+                    android:background="@drawable/servbuttons"
+                    android:textColor="@drawable/textbutton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="25dp"
+                    android:layout_margin="15dp"/>
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/btnAmb"
+                    android:text="@string/amb"
+                    android:textSize="30sp"
+                    android:background="@drawable/servbuttons"
+                    android:textColor="@drawable/textbutton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="25dp"
+                    android:layout_margin="15dp"/>
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/btnGas"
+                    android:text="@string/gas"
+                    android:textSize="30sp"
+                    android:background="@drawable/servbuttons"
+                    android:textColor="@drawable/textbutton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="25dp"
+                    android:layout_margin="15dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtMchs"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtPolice"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtAmb"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/txtGas"
+                    android:textSize="16sp" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

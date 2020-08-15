@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.UserScreen"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/fragmentUser" >
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:text="@string/refresh"
+        android:padding="12dp"
+        android:layout_marginTop="50dp"
+        android:paddingRight="10dp"/>
+
+        <com.hamza.slidingsquaresloaderview.SlidingSquareLoaderView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sslv_start="true"
+            app:sslv_delay="15"
+            app:sslv_duration="150"
+            app:sslv_gap="2dp"
+            app:sslv_square_length="12dp"
+            app:sslv_color="@color/colorAccent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center"
+            android:id = "@+id/sliding_view"
+            android:visibility="invisible"
+            />
+    </fragment>
+</LinearLayout>
