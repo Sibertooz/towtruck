@@ -1,6 +1,6 @@
 # towtruck
 
-###My own first amateure project from July, 2019
+My own first amateure project from July, 2019
 
 - For OS Android
 - Gradle
